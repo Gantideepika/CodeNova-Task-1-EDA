@@ -68,14 +68,14 @@ The notebook also exports visualization images to the `visualizations/` director
 
 ## 8. Key Findings
 
-Complete this section after reviewing the actual notebook outputs.
+- **Dataset size:** The original Palmer Penguins dataset contains 344 rows and 7 columns.
+- **Missing values:** Missing values are present in `bill_length_mm`, `bill_depth_mm`, `flipper_length_mm`, `body_mass_g`, and `sex`. Numerical missing values are handled using median imputation, while categorical missing values are handled using mode imputation.
+- **Duplicate records:** Exact duplicate rows were checked and removed where present. The number of duplicates should be confirmed from the notebook output.
+- **Distributions and outliers:** Histograms and boxplots help identify the distributions of penguin measurements and potential outliers. Potential outliers are flagged using the IQR method and are not automatically removed.
+- **Relationships:** The correlation heatmap and pairwise scatter plots help examine relationships among bill dimensions, flipper length, and body mass.
+- **Species comparison:** The dataset contains three species: Adelie, Chinstrap, and Gentoo. Grouped summary statistics help compare their physical measurements. Gentoo penguins generally have greater body mass and longer flippers than the other two species.
+- **Data cleaning:** Missing numerical and categorical values are imputed using the selected methods, and the cleaned dataset is exported for further analysis.
 
-- **Dataset size:** Add the observed number of rows and columns.
-- **Missing values:** Identify the columns that contained missing values.
-- **Duplicate records:** Report the number of exact duplicate rows found.
-- **Distributions and outliers:** Summarize the patterns observed in the histograms and boxplots.
-- **Relationships:** Describe the relationships observed in the correlation heatmap and pairwise scatter plots.
-- **Species comparison:** Summarize meaningful differences observed between species.
 
 ## 9. How to Run the Project
 
