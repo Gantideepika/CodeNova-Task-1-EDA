@@ -75,7 +75,16 @@ The notebook also exports visualization images to the `visualizations/` director
 - **Relationships:** The correlation heatmap and pairwise scatter plots help examine relationships among bill dimensions, flipper length, and body mass.
 - **Species comparison:** The dataset contains three species: Adelie, Chinstrap, and Gentoo. Grouped summary statistics help compare their physical measurements. Gentoo penguins generally have greater body mass and longer flippers than the other two species.
 - **Data cleaning:** Missing numerical and categorical values are imputed using the selected methods, and the cleaned dataset is exported for further analysis.
+Missing values in the original dataset
+Column	            Missing values
+bill_length_mm	           2
+bill_depth_mm	           2
+flipper_length_mm	        2
+body_mass_g	              2
+sex	                    11
+Total	                    19
 
+Dataset size: 344 rows × 7 columns.
 
 ## 9. How to Run the Project
 
